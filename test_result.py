@@ -3,7 +3,7 @@ import json
 
 class Test_simple():
     def test_card(self):
-        json_file = 'lab1/eval/results.json'
+        json_file = 'eval/results.json'
         with open(json_file, 'r') as f:
             data = json.load(f)
         act = data.get('act')
